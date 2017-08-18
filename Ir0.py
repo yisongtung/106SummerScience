@@ -8,6 +8,6 @@ GPIO.setup(17, GPIO.IN)
 while True:
     if(GPIO.input(17) ==0):
         print("Beam Broken")
-        print datetime.now()
-    time.sleep(0.1)
+        print (datetime.now())
+    time.sleep(0.01)
 
